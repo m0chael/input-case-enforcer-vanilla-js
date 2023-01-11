@@ -46,6 +46,39 @@
       <input id="input4" type='text' placeholder="Uppercase was Removed" />
     </div>
 
+    <div>
+      <input class="enforced-uppercase" type='text' placeholder="Enforced uppercase inputs" />
+    </div>
+
+    <div>
+      <input class="enforced-uppercase" type='text' placeholder="Enforced uppercase inputs" />
+    </div>
+
+    <div>
+      <input class="enforced-uppercase" type='text' placeholder="Enforced uppercase inputs" />
+    </div>
+
+
+    <div>
+      <input class="enforced-lowercase" type='text' placeholder="Enforced lowercase inputs" />
+    </div>
+
+    <div>
+      <input class="enforced-lowercase" type='text' placeholder="Enforced lowercase inputs" />
+    </div>
+
+    <div>
+      <input class="enforced-lowercase" type='text' placeholder="Enforced lowercase inputs" />
+    </div>
+
+    <div>
+      <input class="enforced-capitalized" type='text' placeholder="Enforced Capitalized" />
+    </div>
+
+    <div>
+      <input class="enforced-capitalized" type='text' placeholder="Enforced Capitalized" />
+    </div>
+
     <!-- Replaced with no jquery version for vanilla Javascript -->
     <script src="src/input-case-enforcer-no-jquery.js"></script>
 
@@ -57,6 +90,12 @@
         window.inputCaseEnforcer.init('#input3', 'capitalize');
 
         window.inputCaseEnforcer.init('#input4', 'uppercase', 'destroy');
+
+        window.inputCaseEnforcer.init('.enforced-uppercase', 'uppercase');
+
+        window.inputCaseEnforcer.init('.enforced-lowercase', 'lowercase');
+
+        window.inputCaseEnforcer.init('.enforced-capitalized', 'capitalize');
     </script>
   </body>
 </html>
